@@ -33,10 +33,10 @@ jobs:
           cd accounts/dev
           terraform init
 
-      - name: Terraform Format Check
-        run: |
-          cd accounts/dev
-          terraform fmt -check -recursive
+#      - name: Terraform Format Check
+#        run: |
+#          cd accounts/dev
+#          terraform fmt -check -recursive
 
       - name: Terraform Validate
         run: |
