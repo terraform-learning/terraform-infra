@@ -4,7 +4,8 @@ terraform {
       source  = "hashicorp/aws"
       version = ">= 6.40.0, < 6.41.0"
     }
-
-provider "aws" {
-  region = "us-east-2"
+  }
 }
+  provider "aws" {
+    region = "us-east-2"
+  }
