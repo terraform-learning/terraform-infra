@@ -4,5 +4,6 @@ terraform {
     key            = "dev/terraform.tfstate"
     region         = "us-east-2"
     dynamodb_table = "digi-dev-tf-lock-state"
+    use_lockfile   = true
   }
 }
